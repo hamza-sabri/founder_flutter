@@ -10,7 +10,7 @@ class AppTheme {
       primaryColor: Colors.green,
       listTileTheme: _listTileTheme,
       cardTheme: CardTheme(
-        margin: EdgeInsets.all(0),
+        margin: EdgeInsets.all(5),
         elevation: 8,
       ),
       // ... etc

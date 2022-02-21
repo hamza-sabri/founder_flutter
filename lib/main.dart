@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:founder_flutter/widgets/like_btn.dart';
 import 'package:get/get.dart';
 
 import 'themes/app_theme.dart';
@@ -15,7 +16,10 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: AppTheme().generalTheme,
       initialRoute: '/',
-      getPages: [GetPage(name: '/', page: () => HomePage())],
+      getPages: [
+        GetPage(name: '/', page: () => HomePage()),
+        GetPage(name: '/like-btn', page: () => LikeBtnExample()),
+      ],
     );
   }
 }

@@ -12,7 +12,7 @@ class DemoDrawer extends StatelessWidget {
       child: ListView(
         children: [
           _drawerHeader,
-          _drawerCardCreator('Like Button', '/like-button'),
+          _drawerCardCreator('Like Button', '/like-btn'),
           _drawerCardCreator('Like Button', '/like-button'),
           _drawerCardCreator('Like Button', '/like-button'),
           _drawerCardCreator('Like Button', '/like-button'),

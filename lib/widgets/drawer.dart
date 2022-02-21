@@ -13,7 +13,7 @@ class DemoDrawer extends StatelessWidget {
         children: [
           _drawerHeader,
           _drawerCardCreator('Like Button', '/like-btn'),
-          _drawerCardCreator('Like Button', '/like-button'),
+          _drawerCardCreator('Slimy Card', '/slimy-card'),
           _drawerCardCreator('Like Button', '/like-button'),
           _drawerCardCreator('Like Button', '/like-button'),
           _drawerCardCreator('Like Button', '/like-button'),

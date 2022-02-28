@@ -3,6 +3,7 @@ import 'package:founder_flutter/widgets/like_btn.dart';
 import 'package:founder_flutter/widgets/qr_scanner.dart';
 import 'package:get/get.dart';
 
+import 'binders/controllers_binder.dart';
 import 'themes/app_theme.dart';
 import 'widgets/home_page.dart';
 
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
       getPages: [
         GetPage(name: '/', page: () => HomePage()),
         GetPage(name: '/like-btn', page: () => LikeBtnExample()),
-        GetPage(name: '/qr-reader', page: () => QRScanner()),
+        GetPage(name: '/qr-reader', page: () => QRScanner(), binding: Binder()),
         // GetPage(name: '/slimy-card', page: () => SlimyExample()),
       ],
     );

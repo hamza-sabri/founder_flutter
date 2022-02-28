@@ -14,4 +14,11 @@ class CustomTextStyles {
     styles.forEach((style) => mergeResult.merge(style));
     return mergeResult;
   }
+
+  static TextStyle get scannerTextStyle {
+    return TextStyle(
+      fontSize: 20,
+      color: Colors.white,
+    );
+  }
 }
